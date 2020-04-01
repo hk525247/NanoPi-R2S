@@ -15,7 +15,7 @@
 ## 20200229
 * 官方修复每次重启 Mac 地址变化问题
 
-## 20200227
+## 20200227 
 * 支持 RTL8821CU 芯片的 USB WiFi 设备，已知支持列表：
     - [COMFAST 726B](https://u.jd.com/DOkkhX)
     - [COMFAST CF-759BF](https://u.jd.com/C2ivH7)
