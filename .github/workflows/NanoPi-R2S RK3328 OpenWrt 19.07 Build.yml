@@ -21,6 +21,7 @@ jobs:
       - name: Initialize Environment
         env:
           DEBIAN_FRONTEND: noninteractive
+          SSH_ACTIONS: true
         run: |
           sudo apt-get update
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android/sdk
