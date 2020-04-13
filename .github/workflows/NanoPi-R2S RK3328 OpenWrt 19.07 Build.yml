@@ -19,6 +19,7 @@ jobs:
           ref: master
 
       - name: Initialize Environment
+        
         env:
           DEBIAN_FRONTEND: noninteractive
           SSH_ACTIONS: true
