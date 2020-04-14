@@ -105,6 +105,7 @@ jobs:
         run: |
           cd friendlywrt-rk3328/friendlywrt
           ./scripts/feeds update -a
+          rm -rf /home/runner/work/NanoPi-R2S/NanoPi-R2S/friendlywrt-rk3328/friendlywrt/build_dir/target-aarch64_cortex-a53_musl/runc-1.0.0-rc8+91-3e425f80/
           ./scripts/feeds install -a
 
       - name: Install Mods
